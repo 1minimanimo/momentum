@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }   
+        
+        body {
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_%28cropped%29.jpg/2880px-NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_%28cropped%29.jpg);
+            background-size: 1850px;
+
+        }
+        
+        .time{
+            font-size: 120px;
+            font-weight: bold;
+
+        }
+        
+        .인사{
+            font-size: 45px;
+        }
+    
+        .todo{
+            font-size: 20px;
+        }
+
+        .저자{
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .main{
+            width: 100vw;
+            height: 70vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .명언{
+            width: 100vw;
+            height: 45vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            color: white;
+        }
+
+
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main"> 
+        <div id="time" class="time"> 12:00 </div> 
+        <div class="인사"> Hello, Ilmin! </div>
+        <div class="todo"> Reading, Writing, Coding </div>
+    </div>
+    <div class="명언"> 
+        <div id="author" class="저자"> - 명언의 저자 - </div> 
+        <div id="content" class="내용"> " 명언의 내용 "</div>
+    </div>
+
+
+</body>
+
+</html>
